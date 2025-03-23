@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>SMS OTPBot</title>
+</head>
+<body class="bg-gray-100 font-roboto">
+    <header class="p-4 bg-blue-600 text-white text-center">
+        <h1 class="text-xl">SMS OTPBot</h1>
+    </header>
+    <main class="p-4">
+        <div id="otp-container" class="space-y-2"></div>
+        <button id="refresh" class="mt-4 w-full bg-blue-500 text-white p-2 rounded">Refresh</button>
+        <button id="clear" class="mt-2 w-full bg-red-500 text-white p-2 rounded">Clear All</button>
+    </main>
+    <script src="popup.js"></script>
+</body>
+</html>
